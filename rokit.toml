@@ -1,0 +1,5 @@
+# This file lists tools managed by Rokit, a toolchain manager for Roblox projects.
+# For more information, see https://github.com/rojo-rbx/rokit
+
+[tools]
+rojo = "rojo-rbx/rojo@7.7.0"

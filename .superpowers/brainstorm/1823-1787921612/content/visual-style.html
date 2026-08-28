@@ -1,0 +1,70 @@
+<style>
+  .cookie-showcase { display:flex; align-items:center; justify-content:center; gap:18px; min-height:175px; padding:22px 12px; background:linear-gradient(160deg,#161b2d,#0d1020); }
+  .cookie { width:92px; height:92px; border-radius:50%; position:relative; box-shadow:0 14px 25px #0007, inset -9px -11px 16px #0004, inset 8px 8px 13px #fff2; }
+  .cookie.small { transform:scale(.82); }
+  .chip { position:absolute; width:13px; height:13px; border-radius:50%; background:#472516; box-shadow:inset 2px 2px 2px #8d5837; }
+  .chip.c1 { left:20%; top:25%; } .chip.c2 { left:58%; top:18%; } .chip.c3 { left:44%; top:52%; }
+  .chip.c4 { left:67%; top:65%; } .chip.c5 { left:18%; top:66%; }
+  .arrow { color:#99a4c8; font-size:28px; font-weight:700; }
+  .classic-1 { background:radial-gradient(circle at 35% 28%,#f0b65e,#b66b2f 64%,#73401f); }
+  .classic-2 { background:radial-gradient(circle at 35% 28%,#fff2a8,#e8ad25 62%,#8f5914); border:3px solid #fff2a899; }
+  .classic-3 { background:radial-gradient(circle at 35% 28%,#a8f1ff,#6674e8 52%,#2c155c); border:3px solid #9feaff; box-shadow:0 0 28px #6de8ff99,0 14px 25px #0007,inset -9px -11px 16px #0004; }
+  .rune-1 { background:radial-gradient(circle,#d78d4e 45%,#8e4325 70%); border:5px double #f7c276; }
+  .rune-2 { background:radial-gradient(circle,#d9fff0 12%,#46bda5 52%,#145369); border:5px double #83ffe8; box-shadow:0 0 24px #4fffd688; }
+  .rune-3 { background:radial-gradient(circle at 60% 35%,#fff 2%,#d66bf1 20%,#6030b3 55%,#171344); border:5px double #ed9cff; box-shadow:0 0 30px #d65bff99; }
+  .sigil { position:absolute; inset:22px; border:4px solid #fff9; transform:rotate(45deg); border-radius:8px; }
+  .gear-1 { background:repeating-conic-gradient(#bd7842 0 12deg,#774027 12deg 24deg); border:8px dashed #d29a67; }
+  .gear-2 { background:repeating-conic-gradient(#dba43b 0 12deg,#795514 12deg 24deg); border:8px dashed #ffe082; }
+  .gear-3 { background:radial-gradient(circle,#fff 0 8%,#5eeaff 9% 30%,#1d4782 31% 49%,#19223f 50%); border:8px dashed #6bedff; box-shadow:0 0 28px #45dbff99; }
+  .hub { position:absolute; inset:30px; border-radius:50%; background:#242946; border:5px solid #d9e4ff; }
+  .tier-labels { display:flex; justify-content:center; gap:55px; margin-top:-13px; color:#aeb7d3; font-size:12px; }
+</style>
+
+<h2>Choose the cookie progression style</h2>
+<p class="subtitle">Each row previews the three visuals unlocked at the start, first rebirth, and second rebirth.</p>
+
+<div class="cards">
+  <div class="card" data-choice="classic-evolution" onclick="toggleSelect(this)">
+    <div class="cookie-showcase">
+      <div class="cookie classic-1 small"><i class="chip c1"></i><i class="chip c2"></i><i class="chip c3"></i><i class="chip c4"></i><i class="chip c5"></i></div>
+      <span class="arrow">›</span>
+      <div class="cookie classic-2"><i class="chip c1"></i><i class="chip c2"></i><i class="chip c3"></i><i class="chip c4"></i><i class="chip c5"></i></div>
+      <span class="arrow">›</span>
+      <div class="cookie classic-3"><i class="chip c1"></i><i class="chip c2"></i><i class="chip c3"></i><i class="chip c4"></i><i class="chip c5"></i></div>
+    </div>
+    <div class="card-body">
+      <h3>A · Classic Evolution</h3>
+      <p>Chocolate Chip → Golden Cookie → Cosmic Cookie. Familiar, readable, and easy to model from Roblox parts.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="enchanted-bakery" onclick="toggleSelect(this)">
+    <div class="cookie-showcase">
+      <div class="cookie rune-1 small"><i class="sigil"></i></div>
+      <span class="arrow">›</span>
+      <div class="cookie rune-2"><i class="sigil"></i></div>
+      <span class="arrow">›</span>
+      <div class="cookie rune-3"><i class="sigil"></i></div>
+    </div>
+    <div class="card-body">
+      <h3>B · Enchanted Bakery</h3>
+      <p>Rune Biscuit → Mana Cookie → Void Cookie. Strong fantasy identity with glow, particles, and magical rebirth effects.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="cookie-factory" onclick="toggleSelect(this)">
+    <div class="cookie-showcase">
+      <div class="cookie gear-1 small"><i class="hub"></i></div>
+      <span class="arrow">›</span>
+      <div class="cookie gear-2"><i class="hub"></i></div>
+      <span class="arrow">›</span>
+      <div class="cookie gear-3"><i class="hub"></i></div>
+    </div>
+    <div class="card-body">
+      <h3>C · Cookie Factory</h3>
+      <p>Gear Biscuit → Gold Press → Cookie Reactor. Distinctive tycoon styling that fits upgrades and automated production.</p>
+    </div>
+  </div>
+</div>
+
+<p class="subtitle" style="margin-top:18px">Click one card to select it, then tell me in chat what you chose or what you want changed.</p>

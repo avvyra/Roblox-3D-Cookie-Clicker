@@ -1,0 +1,9 @@
+# Roblox build outputs
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Tool/editor files
+.vscode/
+.DS_Store
