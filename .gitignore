@@ -16,3 +16,13 @@ rojo.log
 .env.*
 !.env.example
 .asphalt-debug/
+
+# Local Roblox toolchain and asset-upload files
+.env.example
+default.project.json
+rokit.toml
+asphalt.example.toml
+asphalt.lock.toml
+asphalt.toml
+scripts/asphalt.mjs
+src/shared/Assets/ui.luau
