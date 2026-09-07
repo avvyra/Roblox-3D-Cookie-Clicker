@@ -3,6 +3,34 @@
   "tree": {
     "$className": "DataModel",
 
+    "Workspace": {
+      "CookieClickerGround": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Size": [512, 4, 512],
+          "Position": [0, -2, 0],
+          "Color": [0.32, 0.46, 0.36],
+          "Material": "Grass",
+          "Locked": true
+        }
+      },
+      "CookieClickerSpawn": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Neutral": true,
+          "Enabled": true,
+          "Size": [12, 1, 12],
+          "Position": [0, 0.5, 0],
+          "Color": [0.85, 0.66, 0.38],
+          "Duration": 0
+        }
+      }
+    },
+
     "ReplicatedStorage": {
       "Shared": {
         "$path": "src/shared"

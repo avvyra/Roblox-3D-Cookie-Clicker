@@ -1,0 +1,6 @@
+ProfileStore by MAD STUDIO / loleris
+Upstream: https://github.com/MadStudioRoblox/ProfileStore
+Pinned commit: 45c9847cbcf1fc260369c50eb335aba7c35aecdd
+Source: ProfileStore.luau (vendored unchanged as ProfileStore.lua for Rojo)
+License: MIT; see ProfileStore.LICENSE.txt
+Documentation: https://madstudioroblox.github.io/ProfileStore/

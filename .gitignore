@@ -7,3 +7,12 @@
 # Tool/editor files
 .vscode/
 .DS_Store
+.superpowers/
+rojo.pid
+rojo.log
+
+# Local credentials and processed asset previews
+.env
+.env.*
+!.env.example
+.asphalt-debug/
