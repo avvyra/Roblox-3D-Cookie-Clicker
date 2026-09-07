@@ -3,8 +3,11 @@
   <h1>Cookie Clicker</h1>
   <p><strong>Click. Upgrade. Rebirth. Evolve.</strong></p>
   <p>Build your cookie empire inside the Cookie House.</p>
-  [Play Cookie Clicker on Roblox](https://www.roblox.com/share?code=294d3df91670bd47ae3077d8368436bb&type=ExperienceDetails&stamp=1788797085685)
-</div>
+  <p>
+  <a href="https://www.roblox.com/share?code=294d3df91670bd47ae3077d8368436bb&type=ExperienceDetails&stamp=1788797085685">
+    Play Cookie Clicker on Roblox
+  </a>
+</p>
 
 ---
 
